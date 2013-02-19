@@ -1,7 +1,7 @@
 (ns datomic.core
   (:require [datomic.api :refer :all]))
 
-("
+"
 * Datomic
 - collection of immutable facts
 - distributes read, write and query processing across different components
@@ -49,7 +49,7 @@ bin/transactor mw.properties
 open http://docs.datomic.com/tutorial.html
 "
 
- comment
+(comment
 
  (def uri "datomic:free://localhost:4334//iwp")
  (create-database uri)
